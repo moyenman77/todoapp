@@ -2,3 +2,6 @@
 
 <p>name = <%= @todo.name%></p>
 <p>description = <%= @todo.description%></p>
+
+<%= link_to "Edit the Todo", edit_todo_path(@todo) %>
+<%= link_to "Back to listings", todos_path %>
